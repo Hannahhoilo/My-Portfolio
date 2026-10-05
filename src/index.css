@@ -26,19 +26,19 @@
 
   /* Fra venstre til høyre, med litt bølgebevegelse */
   @keyframes swim-right {
-    0% { transform: translate(-15vw, 0) rotate(0deg); }
-    25% { transform: translate(25vw, -40px) rotate(-8deg); }
-    50% { transform: translate(55vw, 20px) rotate(6deg); }
-    75% { transform: translate(85vw, -30px) rotate(-6deg); }
-    100% { transform: translate(115vw, 0) rotate(0deg); }
+    0% { transform: translate(-15vw, 0) rotate(17deg); }
+    25% { transform: translate(25vw, -40px) rotate(20deg); }
+    50% { transform: translate(55vw, 20px) rotate(22deg); }
+    75% { transform: translate(85vw, -30px) rotate(20deg); }
+    100% { transform: translate(115vw, 0) rotate(17deg); }
   }
 
   /* Fra høyre til venstre */
   @keyframes swim-left {
-    0% { transform: translate(115vw, 0) rotate(0deg); }
-    25% { transform: translate(85vw, 30px) rotate(6deg); }
-    50% { transform: translate(55vw, -20px) rotate(-6deg); }
-    75% { transform: translate(25vw, 40px) rotate(8deg); }
-    100% { transform: translate(-15vw, 0) rotate(0deg); }
+    0% { transform: translate(115vw, 0) rotate(-10deg); }
+    25% { transform: translate(85vw, 30px) rotate(-15deg); }
+    50% { transform: translate(55vw, -20px) rotate(-24deg); }
+    75% { transform: translate(25vw, 40px) rotate(-15deg); }
+    100% { transform: translate(-15vw, 0) rotate(-10deg); }
   }
 }
