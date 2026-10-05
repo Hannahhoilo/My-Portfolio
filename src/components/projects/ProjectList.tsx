@@ -3,11 +3,16 @@ import ProjectItem from "./ProjectItem";
 
 const ProjectList = () => {
   return (
-    <section className="grid grid-cols-1 gap-6 md:grid-cols-2">
-      {projects.map((project) => (
-        <ProjectItem key={project.id} project={project} />
+    <div className="flex flex-col gap-10">
+      {projects.map((project, index) => (
+        // index brukes til å bytte side på bildet annenhver gang
+        <ProjectItem
+          key={project.id}
+          project={project}
+          reversed={index % 2 === 1}
+        />
       ))}
-    </section>
+    </div>
   );
 };
 

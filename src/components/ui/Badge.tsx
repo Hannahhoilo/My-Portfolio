@@ -1,3 +1,4 @@
+/*
 interface BadgeProps {
   label: string;
 }
@@ -11,3 +12,4 @@ const Badge = ({ label }: BadgeProps) => {
 };
 
 export default Badge;
+*/

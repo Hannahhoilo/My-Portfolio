@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
           {/* TODO: lim inn din LinkedIn-lenke */}
           <a
-            href="https://linkedin.com/in/hannahhøilo"
+            href="https://www.linkedin.com/in/hannahhøilo/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"

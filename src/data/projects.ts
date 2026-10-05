@@ -1,7 +1,6 @@
 import type { IProject } from "../interfaces/IProject";
 
-// Nytt prosjekt? Legg til et nytt objekt i listen, så dukker det opp på Prosjekter-siden.
-// TODO: skriv egne beskrivelser og fyll inn riktige teknologier og lenker
+
 export const projects: IProject[] = [
   {
     id: 1,

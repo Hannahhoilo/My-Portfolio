@@ -3,7 +3,7 @@ export interface IProject {
   title: string;
   description: string;
   technologies: string[];
-  liveUrl?: string; // ? betyr at feltet er valgfritt
+  liveUrl?: string; 
   githubUrl?: string;
   image?: string;
 }

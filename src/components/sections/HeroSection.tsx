@@ -1,23 +1,23 @@
-import { Link } from "react-router-dom";
-import Card from "../components/ui/Card";
+import Card from "../ui/Card";
 
-const HomePage = () => {
+const HeroSection = () => {
   return (
-    <div className="flex min-h-[60vh] items-center justify-center">
+    // scroll-mt-24 gjør at seksjonen ikke havner bak den faste menyen når man scroller til den
+    <section id="hjem" className="flex min-h-[80vh] scroll-mt-24 items-center justify-center py-16">
       <Card className="max-w-xl text-center">
         <h1 className="text-4xl font-bold text-sun">Hannah Høilo</h1>
         <p className="mt-4 text-lg">
           Jeg studerer frontend- og mobilutvikling på Høyskolen Kristiania.
         </p>
-        <Link
-          to="/prosjekter"
+        <a
+          href="#prosjekter"
           className="mt-6 inline-block rounded-full border-2 border-aqua px-6 py-2 font-bold text-aqua hover:bg-aqua hover:text-ocean-dark focus-visible:outline-2 focus-visible:outline-sun"
         >
-          Se prosjektene jeg har jobbet med
-        </Link>
+          Se prosjektene mine
+        </a>
       </Card>
-    </div>
+    </section>
   );
 };
 
-export default HomePage;
+export default HeroSection;

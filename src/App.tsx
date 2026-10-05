@@ -1,7 +1,25 @@
-import AppRouting from "./routing/AppRouting";
+import { useEffect } from "react";
+import Layout from "./components/layout/Layout";
+import HeroSection from "./components/sections/HeroSection";
+import AboutSection from "./components/sections/AboutSection";
+import ProjectsSection from "./components/sections/ProjectsSection";
+import ContactSection from "./components/sections/ContactSection";
 
 function App() {
-  return <AppRouting />;
+  /*Hvis noen åpner en lenke som hannahhoilo.no/#prosjekter, scroll dit når siden er lastet.
+  Nettleseren prøver selv, men rekker det ikke fordi React bygger siden etter at den er lastet.*/
+  useEffect(() => {
+    const id = window.location.hash.slice(1);
+    if (id) document.getElementById(id)?.scrollIntoView();
+  }, []);
+  return (
+    <Layout>
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection />
+      <ContactSection />
+    </Layout>
+  );
 }
 
 export default App;
