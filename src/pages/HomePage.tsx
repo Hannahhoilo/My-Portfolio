@@ -13,7 +13,7 @@ const HomePage = () => {
           to="/prosjekter"
           className="mt-6 inline-block rounded-full border-2 border-aqua px-6 py-2 font-bold text-aqua hover:bg-aqua hover:text-ocean-dark focus-visible:outline-2 focus-visible:outline-sun"
         >
-          Se prosjektene mine
+          Se prosjektene jeg har jobbet med
         </Link>
       </Card>
     </div>

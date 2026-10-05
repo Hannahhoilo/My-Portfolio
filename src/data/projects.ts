@@ -6,14 +6,35 @@ export const projects: IProject[] = [
   {
     id: 1,
     title: "bachelorgruppe.no",
-    description: "Kort beskrivelse av prosjektet og hva du bidro med.",
+    description: "Her kommer en kort beskivelse av prosjektet mitt .",
     technologies: ["React", "TypeScript"],
     liveUrl: "https://bachelorgruppe.no",
   },
   {
     id: 2,
     title: "Lucas Cars",
-    description: "Kort beskrivelse av prosjektet og hva du bidro med.",
+    description: "Her kommer mer tekst. Her kommer mer tekst.",
+    technologies: ["React", "TypeScript"],
+  },
+  {
+    id: 3,
+    title: "Gameflix",
+    description:
+      "Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
+    technologies: ["React", "TypeScript"],
+  },
+  {
+    id: 4,
+    title: "Pokedex iOS",
+    description:
+      "Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
+    technologies: ["React", "TypeScript"],
+  },
+  {
+    id: 5,
+    title: "Anime List",
+    description:
+      "Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
     technologies: ["React", "TypeScript"],
   },
 ];
