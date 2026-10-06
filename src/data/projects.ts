@@ -1,4 +1,5 @@
 import type { IProject } from "../interfaces/IProject";
+import project1 from "../assets/project1.png";
 
 
 export const projects: IProject[] = [
@@ -8,6 +9,7 @@ export const projects: IProject[] = [
     description: "Her kommer en kort beskivelse av prosjektet mitt .",
     technologies: ["React", "TypeScript"],
     liveUrl: "https://bachelorgruppe.no",
+    image: project1,
   },
   {
     id: 2,
@@ -21,6 +23,7 @@ export const projects: IProject[] = [
     description:
       "Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
     technologies: ["React", "TypeScript"],
+    liveUrl: "https://gameflix.hannahhoilo.workers.dev/",
   },
   {
     id: 4,
