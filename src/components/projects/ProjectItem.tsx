@@ -9,9 +9,9 @@ interface ProjectItemProps {
 const buttonStyle =
   "inline-block rounded-md bg-sun px-5 py-2 font-bold text-ocean-dark transition-colors hover:bg-aqua focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-aqua";
 
-// Rammen vokser litt og får skygge. "group" gjør at innholdet kan reagere på hover på rammen.
-// overflow-hidden holder det zoomede bildet innenfor rammen.
-// motion-safe: animasjonen slås av for brukere som har valgt redusert bevegelse
+/* Rammen vokser litt og får skygge. "group" gjør at innholdet kan reagere på hover på rammen.
+overflow-hidden holder det zoomede bildet innenfor rammen.
+motion-safe: animasjonen slås av for brukere som har valgt redusert bevegelse*/
 const frameStyle =
   "group aspect-video w-full overflow-hidden rounded-lg transition-transform duration-300 ease-out motion-safe:hover:scale-105 hover:shadow-2xl";
 
