@@ -14,7 +14,7 @@
   --animate-swim-right: swim-right 40s linear infinite;
   --animate-swim-left: swim-left 40s linear infinite;
 
-  /* Boblene stiger oppover og vugger litt fra side til side */
+  /* Boblene stiger oppover og vagger litt fra side til side */
   @keyframes bubble-rise {
     0% { transform: translate(0, 0); opacity: 0; }
     10% { opacity: 0.7; }
