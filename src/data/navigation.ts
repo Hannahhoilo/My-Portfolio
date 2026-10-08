@@ -1,6 +1,5 @@
-// id-en må være lik id-en på <section> den skal scrolle til
+// id-en må være lik id-en på <section> den skal scrolle til!
 export const navLinks = [
-  { id: "hjem", label: "Hjem" },
   { id: "om-meg", label: "Om meg" },
   { id: "prosjekter", label: "Prosjekter" },
   { id: "kontakt", label: "Kontakt" },

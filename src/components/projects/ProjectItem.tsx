@@ -22,7 +22,6 @@ const zoomStyle =
 const ProjectItem = ({ project, reversed = false }: ProjectItemProps) => {
   return (
     <article>
-      {/* Mobil: bildet over teksten. Fra md og opp: side om side, og annenhver gang speilvendt */}
       <Card
         className={`flex flex-col gap-8 border-2 md:items-center ${
           reversed ? "md:flex-row-reverse" : "md:flex-row"
@@ -37,7 +36,7 @@ const ProjectItem = ({ project, reversed = false }: ProjectItemProps) => {
                 className={`h-full w-full object-cover object-top ${zoomStyle}`}
               />
             ) : (
-              // Plassholder til du har lagt inn et skjermbilde
+              // placeholder-fisk, skal komme skjermbilder av prosjekter 
               <div
                 className={`flex h-full w-full items-center justify-center bg-ocean-dark/60 text-5xl ${zoomStyle}`}
               >
@@ -77,7 +76,7 @@ const ProjectItem = ({ project, reversed = false }: ProjectItemProps) => {
           )}
 
           <div>
-            <h4 className="font-bold text-sun">Beskrivelse:</h4>
+            <h4 className="font-bold text-sun">Beskrivelse av mitt superkule prosjekt :</h4>
             <p className="mt-1 leading-relaxed">{project.description}</p>
           </div>
         </div>

@@ -5,10 +5,11 @@ const Header = () => {
   const activeId = useActiveSection(sectionIds);
 
   return (
-    // sticky top-0: menyen blir liggende øverst mens man scroller
+    // sticky top-0: menyen blir limt øverst mens man scroller
     <header className="sticky top-0 z-20 bg-ocean-dark/60 backdrop-blur-md">
       <nav className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-4 py-6">
-        <a href="#hjem" className="text-2xl font-bold text-sun">
+        <a href="#om-meg" className="text-2xl font-bold text-sun">
+          {" "}
           Hannah Høilo 🐠
         </a>
 
@@ -17,12 +18,14 @@ const Header = () => {
             const isActive = activeId === link.id;
             return (
               <li key={link.id}>
-                {/* href="#id" scroller til seksjonen med den id-en */}
+                {/* href="#id" scroller til seksjonen med den id-en som er trykke på */}
                 <a
                   href={`#${link.id}`}
                   aria-current={isActive ? "true" : undefined}
                   className={`rounded px-1 transition-colors hover:text-aqua focus-visible:outline-2 focus-visible:outline-aqua ${
-                    isActive ? "text-aqua underline underline-offset-8" : "text-sun"
+                    isActive
+                      ? "text-aqua underline underline-offset-8"
+                      : "text-sun"
                   }`}
                 >
                   {link.label}

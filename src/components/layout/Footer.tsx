@@ -19,7 +19,6 @@ const Footer = () => {
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          {/* TODO: lim inn din LinkedIn-lenke */}
           <a
             href="https://www.linkedin.com/in/hannahhøilo/"
             target="_blank"

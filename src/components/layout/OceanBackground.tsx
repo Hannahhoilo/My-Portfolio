@@ -2,8 +2,8 @@ import bubbleImg from "../../assets/bubble.webp";
 import fishOrange from "../../assets/fish-orange.webp";
 import fishBlue from "../../assets/fish-blue.webp";
 
-// Hver boble får egen størrelse, posisjon, fart og forsinkelse,
-// slik at de ikke beveger seg i takt
+/* Hver boble har egen størrelse, posisjon, fart og forsinkelse,
+slik at de ikke beveger seg i takt */
 const bubbles = [
   { size: 30, left: 5, duration: 14, delay: 0 },
   { size: 50, left: 15, duration: 18, delay: 4 },
@@ -16,7 +16,7 @@ const bubbles = [
   { size: 22, left: 93, duration: 13, delay: 5 },
 ];
 
-// direction: "right" svømmer fra venstre mot høyre, "left" motsatt vei
+// "right" svømmer fra venstre mot høyre, "left" motsatt vei
 const fishes = [
   { img: fishOrange, size: 60, top: 15, duration: 45, delay: 0, direction: "right" },
   { img: fishOrange, size: 45, top: 55, duration: 35, delay: 12, direction: "right" },
@@ -27,7 +27,7 @@ const fishes = [
 const OceanBackground = () => {
   return (
     // aria-hidden: skjermlesere hopper over dekorasjonen
-    // fixed inset-0: dekker hele skjermen. pointer-events-none: man kan klikke "gjennom" fiskene
+    // fixed inset-0: dekker hele skjermen. pointer-events-none: man kan klikke på fiskene
     <div
       className="fixed inset-0 z-0 overflow-hidden pointer-events-none bg-linear-to-r from-ocean-dark to-ocean-light"
       aria-hidden="true"
