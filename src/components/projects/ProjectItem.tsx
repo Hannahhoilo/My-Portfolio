@@ -23,7 +23,7 @@ const ProjectItem = ({ project, reversed = false }: ProjectItemProps) => {
   return (
     <article>
       <Card
-        className={`flex flex-col gap-8 border-2 md:items-center ${
+        className={`flex flex-col gap-8 md:items-center ${
           reversed ? "md:flex-row-reverse" : "md:flex-row"
         }`}
       >

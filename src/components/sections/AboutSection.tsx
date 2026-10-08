@@ -8,7 +8,8 @@ const AboutSection = () => {
       aria-labelledby="om-meg-tittel"
       className="flex min-h-[80vh] scroll-mt-24 items-center justify-center py-16"
     >
-      <Card className="max-w-2xl">
+      <Card className="w-full">
+        {" "}
         <h1 id="om-meg-tittel" className="text-4xl font-bold text-sun">
           Hannah Høilo
         </h1>

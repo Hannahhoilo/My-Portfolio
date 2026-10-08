@@ -3,7 +3,7 @@ import Card from "../ui/Card";
 const ContactSection = () => {
   return (
     <section id="kontakt" aria-labelledby="kontakt-tittel" className="scroll-mt-24 py-16">
-      <Card className="mx-auto max-w-xl">
+      <Card>
         <h2 id="kontakt-tittel" className="text-3xl font-bold text-sun">
           Kontakt
         </h2>
