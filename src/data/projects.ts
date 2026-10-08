@@ -16,8 +16,9 @@ export const projects: IProject[] = [
   {
     id: 2,
     title: "My Shop",
-    description: "Her kommer mer tekst. Her kommer mer tekst.",
-    technologies: ["React", "TypeScript"],
+    description:
+      "Responsiv nettbutikk utviklet med HTML5, CSS3 og vanilla JavaScript (ES6+), uten bruk av rammeverk. Produktene hentes fra en egen IIFE-modul og rendres dynamisk på siden. Nettbutikken har et eget 12-kolonners CSS Grid-system med tre breakpoints og BEM-navngivning for en strukturert og responsiv layout. Funksjonaliteten inkluderer søk og filtrering av produkter, handlekurv med lagring i localStorage, totalpris, mulighet for å fjerne varer og en dynamisk vareteller i headeren. I tillegg brukes <dialog> til popup-vinduer og et bekreftelseselement ved når en vare legges i handlekurven.",
+    technologies: ["JavaScript"],
   },
   {
     id: 3,
