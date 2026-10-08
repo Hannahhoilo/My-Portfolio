@@ -1,5 +1,5 @@
 import Card from "../ui/Card";
-import profileImg from "../../assets/profileimg.png";
+import profileImg from "../../assets/profileimg.webp";
 
 const AboutSection = () => {
   return (
