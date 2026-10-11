@@ -17,20 +17,20 @@ export const projects: IProject[] = [
   },
   {
     id: 2,
-    title: "My Shop",
+    title: "Gameflix",
     description:
-      "Responsiv nettbutikk utviklet med HTML5, CSS3 og vanilla JavaScript (ES6+), uten bruk av rammeverk. Produktene hentes fra en egen IIFE-modul og rendres dynamisk på siden. Nettbutikken har et eget 12-kolonners CSS Grid-system med tre breakpoints og BEM-navngivning for en strukturert og responsiv layout. Funksjonaliteten inkluderer søk og filtrering av produkter, handlekurv med lagring i localStorage, totalpris, mulighet for å fjerne varer og en dynamisk vareteller i headeren. I tillegg brukes <dialog> til popup-vinduer og et bekreftelseselement ved når en vare legges i handlekurven.",
-    technologies: ["JavaScript"],
-    liveUrl: "https://my-shop.hannahhoilo.workers.dev/",
+      "Gameflix er en nettside for å utforske videospill, med data hentet fra RAWG-API-et. Brukere må logge inn med Firebase for å se innholdet, og kan sortere spillene etter utgivelsesår, navn eller rating, filtrere på sjanger og plattform, og søke etter spill. API-nøkkelen er skjult bak en egen serverfunksjon.",
+    technologies: ["Firebase", "JavaScript"],
+    liveUrl: "https://gameflix.hannahhoilo.workers.dev/",
     image: project2,
   },
   {
     id: 3,
-    title: "Gameflix",
+    title: "My Shop",
     description:
-      "Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
-    technologies: ["React", "TypeScript"],
-    liveUrl: "https://gameflix.hannahhoilo.workers.dev/",
+      "Nettbutikk for brukte spill og konsoller, bygget med HTML, CSS og vanilla JavaScript (ES6+) uten rammeverk. Produktene hentes fra en egen JavaScript-modul og vises dynamisk, og handlekurven lagres i localStorage med totalpris og teller i headeren. Du kan søke, filtrere på retrospill og fjerne varer, og layouten er responsiv med eget CSS Grid-system.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    liveUrl: "https://my-shop.hannahhoilo.workers.dev/",
     image: project3,
   },
   {
