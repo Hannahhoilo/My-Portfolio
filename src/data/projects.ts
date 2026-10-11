@@ -10,7 +10,7 @@ export const projects: IProject[] = [
     id: 1,
     title: "bachelorgruppe.no",
     description:
-      "Landingsside for bachelorgruppen min ved Høyskolen Kristiania, med presentasjon av gruppen, medlemmene og emnene vi har hatt. Bygget med Expo, React Native og TypeScript, stylet med NativeWind, og responsiv for både web og mobil.",
+      "Landingsside for bachelorgruppen min ved Høyskolen Kristiania, med presentasjon av gruppen, medlemmene og emnene vi har hatt. Bygget med Expo, React Native og TypeScript, stylet med NativeWind, og responsiv for både web og mobil. Hvis du ikke vil opprette en bruker kan du logge inn med hei@sveis.no med passord heisveis.",
     technologies: ["React Native", "TypeScript", "Expo", "NativeWind"],
     liveUrl: "https://bachelorgruppe.no",
     image: project1,
