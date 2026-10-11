@@ -9,8 +9,9 @@ export const projects: IProject[] = [
   {
     id: 1,
     title: "bachelorgruppe.no",
-    description: "Her kommer en kort beskivelse av prosjektet mitt .",
-    technologies: ["React", "TypeScript"],
+    description:
+      "Landingsside for bachelorgruppen min ved Høyskolen Kristiania, med presentasjon av gruppen, medlemmene og emnene vi har hatt. Bygget med Expo, React Native og TypeScript, stylet med NativeWind, og responsiv for både web og mobil.",
+    technologies: ["React Native", "TypeScript", "Expo", "NativeWind"],
     liveUrl: "https://bachelorgruppe.no",
     image: project1,
   },
