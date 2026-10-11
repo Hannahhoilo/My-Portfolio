@@ -1,5 +1,7 @@
 import type { IProject } from "../../interfaces/IProject";
 import Card from "../ui/Card";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 interface ProjectItemProps {
   project: IProject;
@@ -36,7 +38,7 @@ const ProjectItem = ({ project, reversed = false }: ProjectItemProps) => {
                 className={`h-full w-full object-cover object-top ${zoomStyle}`}
               />
             ) : (
-              // placeholder-fisk, skal komme skjermbilder av prosjekter 
+              // placeholder-fisk, skal komme skjermbilder av prosjekter
               <div
                 className={`flex h-full w-full items-center justify-center bg-ocean-dark/60 text-5xl ${zoomStyle}`}
               >
@@ -51,7 +53,7 @@ const ProjectItem = ({ project, reversed = false }: ProjectItemProps) => {
           <p className="text-lg text-aqua">{project.technologies.join(", ")}</p>
 
           {(project.liveUrl || project.githubUrl) && (
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap items-center gap-4">
               {project.liveUrl && (
                 <a
                   href={project.liveUrl}
@@ -67,16 +69,19 @@ const ProjectItem = ({ project, reversed = false }: ProjectItemProps) => {
                   href={project.githubUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className={buttonStyle}
+                  aria-label={`Se koden til ${project.title} på GitHub`}
+                  className="rounded text-4xl text-sun transition-colors hover:text-aqua focus-visible:outline-2 focus-visible:outline-aqua"
                 >
-                  Kode på GitHub
+                  <FontAwesomeIcon icon={faGithub} />
                 </a>
               )}
             </div>
           )}
 
           <div>
-            <h4 className="font-bold text-sun">Beskrivelse av mitt superkule prosjekt :</h4>
+            <h4 className="font-bold text-sun">
+              Beskrivelse av mitt superkule prosjekt :
+            </h4>
             <p className="mt-1 leading-relaxed">{project.description}</p>
           </div>
         </div>
