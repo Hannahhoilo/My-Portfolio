@@ -10,7 +10,7 @@ export const projects: IProject[] = [
     id: 1,
     title: "bachelorgruppe.no",
     description:
-      "Landingsside for bachelorgruppen min ved Høyskolen Kristiania, med presentasjon av gruppen, medlemmene og emnene vi har hatt. Bygget med Expo, React Native og TypeScript, stylet med NativeWind, og responsiv for både web og mobil. Hvis du ikke vil opprette en bruker kan du logge inn med hei@sveis.no med passord heisveis.",
+      "Landingsside for bachelorgruppen min ved Høyskolen Kristiania, med presentasjon av gruppen, medlemmene og emnene vi har hatt. Bygget med Expo, React Native og TypeScript, stylet med NativeWind, og responsiv for både web og mobil.",
     technologies: ["React Native", "TypeScript", "Expo", "NativeWind"],
     liveUrl: "https://bachelorgruppe.no",
     githubUrl: "https://github.com/Hannahhoilo/bachelorgruppe/",
@@ -20,7 +20,7 @@ export const projects: IProject[] = [
     id: 2,
     title: "Gameflix",
     description:
-      "Gameflix er en nettside for å utforske videospill, med data hentet fra RAWG-API-et. Brukere må logge inn med Firebase for å se innholdet, og kan sortere spillene etter utgivelsesår, navn eller rating, filtrere på sjanger og plattform, og søke etter spill. API-nøkkelen er skjult bak en egen serverfunksjon.",
+      "Gameflix er en nettside for å utforske videospill, med data hentet fra RAWG-API-et. Brukere må logge inn med Firebase for å se innholdet, og kan sortere spillene etter utgivelsesår, navn eller rating, filtrere på sjanger og plattform, og søke etter spill. API-nøkkelen er skjult bak en egen serverfunksjon. Hvis du ikke vil opprette en bruker kan du logge inn med hei@sveis.no med passord heisveis.",
     technologies: ["Firebase", "JavaScript"],
     liveUrl: "https://gameflix.hannahhoilo.workers.dev/",
     githubUrl: "https://github.com/Hannahhoilo/Final-Project-24",
