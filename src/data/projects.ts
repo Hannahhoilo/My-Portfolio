@@ -40,21 +40,21 @@ export const projects: IProject[] = [
     id: 4,
     title: "Pokedex iOS",
     description:
-      "Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
+      "Snart klar for publisering! Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
     technologies: ["React", "TypeScript"],
   },
   {
     id: 5,
     title: "Anime List",
     description:
-      "Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
+      "Snart klar for publisering! Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
     technologies: ["React", "TypeScript"],
   },
   {
     id: 6,
     title: "Star Wars API",
     description:
-      "Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
+      "Snart klar for publisering! Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
     technologies: ["React", "TypeScript"],
   },
 ];
