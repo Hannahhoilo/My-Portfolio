@@ -47,7 +47,7 @@ export const projects: IProject[] = [
     id: 5,
     title: "Anime List",
     description:
-      "Snart klar for publisering! Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
+      "Snart klar for publisering! Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
     technologies: ["React", "TypeScript"],
   },
   {
