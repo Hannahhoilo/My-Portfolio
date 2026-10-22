@@ -54,7 +54,7 @@ export const projects: IProject[] = [
     id: 6,
     title: "Star Wars API",
     description:
-      "Snart klar for publisering! TODO: bytte ut eksisterende netlify med cloudflare for hosting. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst. Her kommer mer tekst.",
+      "Snart klar for publisering! TODO: bytte ut eksisterende netlify med cloudflare for hosting.",
     technologies: ["React", "TypeScript"],
     liveUrl: "https://dantooine-api.netlify.app/",
   },
